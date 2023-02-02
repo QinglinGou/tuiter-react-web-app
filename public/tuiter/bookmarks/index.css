@@ -6,13 +6,13 @@
 }
 
 .wd-bookmarks-header {
-  width: 595px;
+  width: 598px;
   margin-top: 12px;
   margin-bottom: 0px;
 }
 
 .wd-bookmarks-body {
-  width: 595px;
+  width: 598px;
   height: 580px;
   margin-top: 0px;
   margin-bottom: 15px;
@@ -68,7 +68,7 @@
 
 .wd-bookmarks-post {
   margin-top: 0px;
-  width: 595px;
+  width: 598px;
   /*border: 1px solid rgb(47,51,54);*/
 }
 
@@ -90,7 +90,7 @@
 
 
 .wd-content-float {
-  margin-right: 12px;
+  margin-right: 16px;
   margin-top: 12px;
   width: 506px;
   float: right;
