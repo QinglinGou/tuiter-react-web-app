@@ -1,8 +1,7 @@
 .wd-body {
   font-family: "Arial";
   background-color: black;
-  /*display: flex;*/
-  /*justify-content: center;*/
+
 }
 
 .wd-bookmarks-header {
@@ -20,14 +19,12 @@
 
 .wd-solid-header-borders {
   border: 1px solid lightgray;
-  /*border: 1px solid rgb(47,51,54);*/
+
 }
 
 .wd-solid-borders {
   border-top: 0px none;
-  /*border-left: 1px solid rgb(47, 51, 54);*/
-  /*border-right: 1px solid rgb(47, 51, 54);*/
-  /*border-bottom: 1px solid rgb(47, 51,54);*/
+
   border-left: 1px solid lightgray;
   border-right: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
@@ -46,7 +43,7 @@
 
 .wd-bookmarks-handle {
   color: lightgray;
-  /*color: rgb(110, 118, 125);*/
+
   font-size: 13px;
   margin-left: 16px;
   margin-bottom: 12px;
@@ -69,7 +66,7 @@
 .wd-bookmarks-post {
   margin-top: 0px;
   width: 598px;
-  /*border: 1px solid rgb(47,51,54);*/
+
 }
 
 .wd-img-float{
@@ -81,8 +78,7 @@
 }
 
 .wd-bookmarks-avatar-img {
-  /*margin-left: 16px;*/
-  /*margin-top: 12px;*/
+
   width: 48px;
   height: 48px;
   border-radius: 50px;
@@ -104,7 +100,7 @@
 .wd-content-handle {
   font-size: 15px;
   color: lightgray;
-  /*color: rgb(110, 118, 125);*/
+
 }
 
 
@@ -118,7 +114,7 @@
 
 
 .wd-bookmarks-content-img-border {
-  /*border: 1px solid rgb(110, 118, 125);*/
+
   border: 1px solid lightgray;
   border-radius: 20px;
 }
@@ -166,7 +162,7 @@
   margin-top: 10px;
   margin-bottom: 0px;
   font-size: 15px;
-  /*margin-right: 5px;*/
+
   padding: 0px;
   color: rgb(110, 118, 125);
 }
@@ -176,26 +172,26 @@
 .wd-content-icons-bar {
   margin-top: 12px;
   margin-bottom: 12px;
-  /*margin: 12px;*/
+
   font-size: 15px;
 }
 
 .wd-content-icon {
   margin-right: 60px;
-  /*margin-right: 12px;*/
+
   text-decoration: none;
 }
 
 .wd-content-icon-color {
   margin-right: 12px;
   color: lightgray;
-  /*color: rgb(110, 118, 125);*/
+
 }
 
 .wd-content-number {
   margin-left: 12px;
   color: lightgray;
-  /*color: rgb(110, 118, 125);*/
+
 }
 
 .wd-content-icon-red {
