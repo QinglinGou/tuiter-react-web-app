@@ -1,87 +1,109 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Explore</title>
+  <meta charset="UTF-8">
+  <title>Title</title>
   <link href="index.css" rel="stylesheet"/>
+  <script src="https://kit.fontawesome.com/f7d0fd6f5d.js" crossorigin="anonymous"></script>
 </head>
-<body>
-<div class="wd-title-bar">
-  <input type="text" id="search-bar" class="wd-search-bar" placeholder="  🔍 &nbsp; Search Tuiter &nbsp;"/>
-  <a href="explore-setting.html" class="wd-search-gear">&#x2699;</a>
-  <div class="wd-clear"></div>
-  <ul class="wd-navigation">
-    <div>
-      <li class="wd-selected-item"><a class="wd-icon-selected" href="#"> For you</a></li>
-      <li class="wd-normal-item"><a class="wd-icon" href="#">Trending</a></li>
-      <li class="wd-normal-item"><a class="wd-icon" href="#">COVID-19</a></li>
-      <li class="wd-normal-item"><a class="wd-icon" href="#">News</a></li>
-      <li class="wd-normal-item"><a class="wd-icon" href="#">Sports</a></li>
-      <li class="wd-normal-item"><a class="wd-icon" href="#">Entertainment</a></li>
+
+<body class="wd-body">
+<div class="wd-header wd-solid-header-borders wd-left-margin-16">
+
+  <div class="wd-searchbar wd-left-margin-16">
+    <div class="wd-search">
+      <i class="fa fa-search"></i>
+      <input class="wd-search-tuiter" type="text" placeholder="Search Tuiter"/>
     </div>
-  </ul>
-</div>
-<hr class="wd-hr">
-<div class="wd-div-class">
-  <span class="wd-foreground wd-view">Trending in Science</span>
-  <div class="wd-more-options">...</div>
-  <br>
-  <span class="wd-header">Starship</span>
-  <br>
-  <span class="wd-foreground wd-view">55.5k Tuits</span>
+    <a class="wd-search-setting" href="explore-settings.html"><i class="fa fa-gear"></i></a>
+  </div>
+
+  <nav class="wd-nav-tabs">
+    <a class="wd-topic-selected" href="#">For you</a>
+    <a class="wd-nav-topic" href="">Trending</a>
+    <a class="wd-nav-topic" href="">COVID-19</a>
+    <a class="wd-nav-topic" href="">News</a>
+    <a class="wd-nav-topic" href="">Sports</a>
+    <a class="wd-nav-topic" href="">Entertainment</a>
+  </nav>
+  <div class="wd-float-done"></div>
 </div>
 
-<div class="wd-div-class">
-  <span class="wd-foreground wd-view">Sports - Trending</span>
-  <div class="wd-more-options">...</div><br>
-  <span class="wd-header">Joe Rogan</span><br>
-  <span class="wd-foreground wd-view">5,218 Tuits</span>
+<div class="wd-solid-borders wd-separator wd-left-margin-16"></div>
+
+<div class="wd-trending wd-trending-solid-borders wd-left-margin-16">
+  <button class="wd-trending-dot-button-white">...</button>
+  <div class="wd-float-done"></div>
 </div>
-<div class="wd-div-class">
-  <div class="wd-div-class-with-images">
-    <img class="wd-img-div-class-small" src="../../images/times.png">
-    <span class="wd-foreground wd-view-color-white">&nbsp; The New York Times</span>
-    <img class="wd-img-div-class-smaller" src="../../images/tickmark.png"> <span class="wd-foreground wd-view">&nbsp . Yesterday</span></br>
-    <span class="wd-detailed-messages">Biden will visit Puerto Rico and Florida to assess damage from storms.</span>
+<div class="wd-trending wd-trending-solid-borders wd-left-margin-16">
+  <div class="wd-trending-float-left">
+    <p class="wd-trending-topic">Trending in Science</p>
+    <p class="wd-trending-title">Starship</p>
+    <p class="wd-trending-topic">55.5K Tweets</p>
   </div>
-  <div><img class="wd-img-div-class" src="../../images/joebiden.jpg"/></div>
-  <div class="wd-clear"></div>
-</div>
-<div class="wd-div-class">
-  <div class="wd-div-class-with-images">
-    <span class="wd-foreground wd-view">COVID-19 . LIVE</span><br>
-    <span class="wd-detailed-messages">Long Covid: What science has learned about the loss of smell and taste</span>
-  </div>
-  <div><img class="wd-img-div-class" src="../../images/covid19.jpg"/></div>
-  <div class="wd-clear"></div>
-</div>
-<div class="wd-div-class">
-  <div class="wd-div-class-with-images">
-    <img class="wd-img-div-class-small" src="../../images/bloomberg.png">
-    <span class="wd-foreground wd-view-color-white">&nbsp; Bloomberg opinion</span>
-    <img class="wd-img-div-class-smaller" src="../../images/tickmark.png"> <span class="wd-foreground wd-view">&nbsp . Yesterday</span></br>
-    <span class="wd-detailed-messages">Throwing Shade Is Solar Energy's New Superpower</span>
-  </div>
-  <div><img class="wd-img-div-class" src="../../images/solar.jpeg"/></div>
-  <div class="wd-clear"></div>
-</div>
-<div class="wd-div-class">
-  <div class="wd-div-class-with-images">
-    <span class="wd-foreground wd-view">Good News Network</span><br>
-    <span class="wd-detailed-messages">Thrilled Swimmers are Visited By Playful Penguins and Sea Lions at the Equator</span>
-  </div>
-  <div><img class="wd-img-div-class" src="../../images/penguin.jpg"/></div>
-  <div class="wd-clear"></div>
-</div>
-<div class="wd-div-class ">
-  <span class="wd-foreground wd-view">Trending in United States</span>
-  <div class="wd-more-options">...</div><br>
-  <span class="wd-header">FlyEaglesFly</span><br>
-  <span class="wd-foreground wd-view">5,800 Tuits</span>
+  <button class="wd-trending-dot-button">...</button>
+  <div class="wd-float-done"></div>
 </div>
 
+<div class="wd-trending wd-trending-solid-borders wd-left-margin-16">
+  <div class="wd-trending-float-left">
+    <p class="wd-trending-topic">Sports &middot; Trending</p>
+    <p class="wd-trending-title">Joe Rogan</p>
+    <p class="wd-trending-topic">5,218 Tweets</p>
+  </div>
+  <button class="wd-trending-dot-button">...</button>
+  <div class="wd-float-done"></div>
+</div>
+
+
+
+<div class="wd-trending wd-solid-borders wd-left-margin-16">
+  <div class="wd-trending-float-left">
+    <p><img class="wd-nyt-icon" src="nyt.png"><span class="wd-trending-title"> The New York Times</span> <span class="wd-trending-topic"> <i class="fa fa-check-circle"></i> &middot; Yesterday</span></p>
+    <p class="wd-trending-title">CNN's Cuomo conundrum: A start anchor with a brother in trouble</p>
+  </div>
+  <img class="wd-trending-img" src="NY.jpeg">
+  <div class="wd-float-done"></div>
+</div>
+
+
+<div class="wd-trending wd-solid-borders wd-left-margin-16">
+  <div class="wd-trending-float-left">
+    <p><span class="wd-trending-topic">COVID-19 &middot; LIVE</span></p>
+    <p class="wd-trending-title">COVID-19: News and updates for Massachusetts</p>
+  </div>
+  <img class="wd-trending-img" src="MA.jpg">
+  <div class="wd-float-done"></div>
+</div>
+
+<div class="wd-trending wd-solid-borders wd-left-margin-16">
+  <div class="wd-trending-float-left">
+    <p><span class="wd-trending-topic">NBA &middot; LIVE</span></p>
+    <p class="wd-trending-title">ESPN: The Boston Celtics win the final champion</p>
+  </div>
+  <img class="wd-trending-img" src="NBA.jpg">
+  <div class="wd-float-done"></div>
+</div>
+
+<div class="wd-trending wd-solid-borders wd-left-margin-16">
+  <div class="wd-trending-float-left">
+    <p><img class="wd-bloomberg-icon" src="bloomberg.jpeg"><span class="wd-trending-title"> Bloomberg Opinion</span> <span class="wd-trending-topic"> <i class="fa fa-check-circle"></i> &middot; Yesterday</span></p>
+    <p class="wd-trending-title">Thinking about getting a booster? Read this first.</p>
+  </div>
+  <img class="wd-trending-img" src="booster.jpg">
+  <div class="wd-float-done"></div>
+</div>
+
+<div class="wd-trending wd-solid-borders wd-left-margin-16">
+  <div class="wd-trending-float-left">
+    <p class="wd-trending-topic">Trending in United State</p>
+    <p class="wd-trending-title">Wonder Bread</p>
+    <p class="wd-trending-topic">1,259 Tweets</p>
+  </div>
+  <button class="wd-trending-dot-button">...</button>
+  <div class="wd-float-done"></div>
+</div>
+</div>
 
 </body>
 </html>

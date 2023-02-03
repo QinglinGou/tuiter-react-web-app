@@ -1,148 +1,217 @@
-.wd-search-gear {
-    float: right;
-    margin-right: 12px;
-    margin-top: 5px;
-    font-size: 35px;
-    text-decoration-line: none;
-    color: dodgerblue;
+.wd-body {
+  font-family: "Arial";
+  background-color: black;
+  color: white;
 }
-.wd-icon-selected{
-    color: dodgerblue;
-    text-decoration: None;
+
+.wd-header {
+  background-color: black;
+  width: 650px;
+  height: 132px;
+}
+
+.wd-solid-header-borders {
+  border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-left-margin-16 {
+  margin-left: 16px;
+}
+
+.wd-searchbar {
+  margin-top: 12px;
+  margin-bottom: 0px;
+  width: 630px;
+  height: 50px;
+  padding: 0px;
+  border-color: rgb(47, 51, 54);
+}
+
+.wd-search {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  width: 502px;
+  height: 53px;
+  border-radius: 50px;
+  background-color: darkgray;
+}
+
+.fa-search {
+  margin-left: 30px;
+  margin-right: 0px;
+  margin-top: 20px;
+  font-size: 15px;
+  padding: 0px;
+  color: rgb(110, 118, 125);
+}
+
+.wd-search-tuiter {
+  margin-left: 10px;
+  margin-right: 0px;
+  padding: 0;
+  width: 400px;
+  height: 50px;
+  color: white;
+  font-size: 15px;
+  background-color: darkgray;
+  border-style: none;
+}
+
+.wd-search-setting {
+  float: right;
+}
+
+.fa-gear {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 25px;
+  margin-right: 12px;
+  padding: 0px;
+  color: rgb(29,161,242);
+}
+
+.wd-solid-borders {
+  border-top: 1px solid rgb(47, 51, 54);
+  border-left: 1px solid rgb(47, 51, 54);
+  border-right: 1px solid rgb(47, 51, 54);
+  border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.wd-separator {
+  width: 650px;
+  height: 10px;
+}
+
+.wd-float-done {
+  clear: both;
 }
 
 
-.wd-search-bar {
-    color: white;
-    background-color: darkgray;
-    width: 85%;
-    height: 35px;
-    margin-left: 16px;
-    border-radius: 20px;
-    margin-top: 5px;
-}
-.wd-hr {
-    border: none;
-    margin-top: 0px;
-    height: 12px;
-    background: rgb(47, 51, 54);
+.wd-nav-tabs {
+  color: rgb(29, 161, 242);
+  font-size: 15px;
+  margin-top: 16px;
+  margin-bottom: 0px;
+  padding: 16px;
+  width: 650px;
+  height: 42px;
+  margin-right: 15px;
 }
 
-.wd-navigation {
-    color: rgb(29, 161, 242);
-    width: 100%;
-    display: inline-block;
+.wd-nav-tabs .wd-nav-topic {
+  font-size: 15px;
+  padding: 16px;
+  text-decoration: none;
+  color: rgb(110, 118, 125);
+  margin-right: 15px;
 }
 
-.wd-navigation .wd-selected-item {
-    border-bottom: solid 4px rgb(29, 161, 242);
-    border-bottom-left-radius: 2px ;
-    border-bottom-right-radius: 2px;
-    border-bottom-height: 2px;
-    color: rgb(29, 161, 242);
-    font-size: 15px;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-.wd-navigation .wd-normal-item {
-    color: rgb(110, 118, 125);
-    font-size: 15px;
-    padding: 16px;
-}
-
-.wd-navigation li {
-    list-style-type: none;
-    display: inline-block;
-    border: 2px solid black;
-    padding: .5em;
-}
-
-.wd-div-class {
-    border: 1px solid rgb(110, 118, 125);
-    padding: 15px;
-}
-.wd-foreground { color: rgb(110, 118, 125); }
-
-.wd-div-class .wd-h3 {
-    margin: 0px;
-    padding: 0px;
-    font-size: 14px;
-}
-.wd-div-class .wd-header {
-    font-size: 20px;
-}
-
-.wd-div-class .wd-detailed-messages {
-    margin: 1px;
-    padding: 1px;
-    font-size: 20px;
-    width: 80%;
-    float: left;
-}
-.wd-div-class .wd-view {
-    margin-top: 1px;
-    margin-bottom: 1px;
-    padding: 0px;
-    font-size: 13px;
-}
-
-.wd-view-color-white {
-    margin: 0px;
-    padding: 0px;
-    font-size: 15px;
-    color: white;
-}
-
-.wd-img-div-class {
-    border-radius: 20%;
-    float: right;
-    margin-right: 16px;
-    width: 100px;
-    height: 100px;
-}
-
-.wd-img-div-class-small {
-    border-radius: 30%;
-    float: left;
-    width: 15px;
-}
-.wd-img-div-class-smaller {
-    border-radius: 50%;
-    float: none;
-    width: 15px;
-}
-
-.wd-div-class-with-images{
-    width: 80%;
-    height: 100%;
-    float: left;
-}
-
-body {
-    font-family: Arial;
-    background-color: black;
-    color: white;
-    padding-left: 16px;
-    max-width: 650px;
+.wd-nav-tabs .wd-topic-selected {
+  color: rgb(29, 161, 242);
+  font-size: 15px;
+  text-decoration: none;
+  padding-bottom: 16px;
+  margin-left: 5px;
+  margin-right: 15px;
+  border-bottom: 5px solid rgb(29, 161, 242);
 }
 
 
 
-.wd-clear {
-    clear: both;
+.wd-trending-solid-borders {
+  border-top: 0px solid rgb(47, 51, 54);
+  border-left: 1px solid rgb(47, 51, 54);
+  border-right: 1px solid rgb(47, 51, 54);
+  border-bottom: 0px solid rgb(47, 51, 54);
 }
 
-.wd-more-options{
-    float: right;
-    color: darkgray;
+.wd-trending {
+  background-color: black;
+  width: 650px;
+}
+
+.wd-trending-dot-button-white {
+  float: right;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border: 0px none;
+  margin-right: 16px;
+  font-size: 15px;
+}
+
+.wd-trending-dot-button {
+  float: right;
+  background-color: black;
+  color: rgb(110, 118, 125);
+  border: 0px none;
+  margin-right: 16px;
+  font-size: 15px;
 }
 
 
-.wd-title-bar {
-    border: 1px solid rgb(47, 51, 54);
+
+.wd-trending p {
+  margin: 10px 10px 10px 16px;
 }
-.wd-icon{
-    color: darkgray;
-    text-decoration: None;
+
+.wd-trending-topic {
+  font-size: 13px;
+  color: rgb(110, 118, 125);
 }
+
+.wd-trending-title {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+
+.wd-trending-float-left {
+  float: left
+}
+
+.fa-check-circle {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 15px;
+  /*margin-right: 5px;*/
+  padding: 0px;
+  color: rgb(255,255,255);
+}
+
+.wd-trending-img {
+  float: right;
+  width: 100px;
+  height: 100px;
+  margin-right: 16px;
+  /*margin-left: 0px;*/
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.wd-nyt-icon {
+  width: 10px;
+  height: 12px;
+}
+
+.wd-bloomberg-icon {
+  width: 12px;
+  height: 12px;
+  border-radius: 45px;
+}
+
+::placeholder {
+  color: rgb(110, 118, 125)
+}
+
+
+
+
+
+
+
+
+
+
+
+
