@@ -135,7 +135,7 @@ for (let i = 0; i < stringArray1.length; i++) {
 }
 
 console.log("Map function")
-console.log(numberArray1);
+
 const squares = numberArray1.map(square);
 const cubes = numberArray1.map(a => a * a * a);
 console.log(squares);
