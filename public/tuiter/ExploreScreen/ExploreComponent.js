@@ -33,7 +33,7 @@ const ExploreComponent = () => {
     </ul>
     
    <div class="position-relative">
-      <img class="img-fluid mt-2" src="https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg">
+      <img class="img-fluid mt-2" src="../../images/ElonMuskProfile.jpeg">
       <h1 class="position-absolute bottom-0 left-0 fw-bold text-black wd-title">SpaceX's Starship</h1>
 
    </div>
