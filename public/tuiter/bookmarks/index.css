@@ -1,193 +1,43 @@
-.wd-body {
-  font-family: "Arial";
-  background-color: black;
-
-}
-
-.wd-bookmarks-header {
-  width: 598px;
+.wd-margin-top-12 {
   margin-top: 12px;
-  margin-bottom: 0px;
 }
 
-.wd-bookmarks-body {
-  width: 598px;
-  height: 580px;
-  margin-top: 0px;
-  margin-bottom: 15px;
-}
-
-.wd-solid-header-borders {
-  border: 1px solid lightgray;
-
-}
-
-.wd-solid-borders {
-  border-top: 0px none;
-
-  border-left: 1px solid lightgray;
-  border-right: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
-}
-
-.wd-left-margin-16 {
-  margin-left: 16px;
-}
-
-.wd-bookmarks-title {
-  color: white;
+.wd-font-20 {
   font-size: 20px;
-  margin-left: 16px;
-  margin-top: 12px;
 }
 
-.wd-bookmarks-handle {
-  color: lightgray;
-
+.wd-font-13 {
   font-size: 13px;
-  margin-left: 16px;
-  margin-bottom: 12px;
 }
 
-.wd-bookmarks-dot-button {
-  float: right;
-  background-color: black;
-  color: rgb(29, 161, 242);
-  border: 0px none;
-  margin-top: 10px;
-  margin-right: 18px;
+.wd-font-15 {
   font-size: 15px;
 }
 
-.wd-float-done {
-  clear: both;
-}
-
-.wd-bookmarks-post {
-  margin-top: 0px;
-  width: 598px;
-
-}
-
-.wd-img-float{
-  margin-left: 16px;
-  margin-top: 12px;
-  float: left;
-  width: 48px;
-  height:48px;
-}
-
-.wd-bookmarks-avatar-img {
-
-  width: 48px;
-  height: 48px;
-  border-radius: 50px;
-}
-
-.wd-content-float {
-  margin-right: 16px;
-  margin-top: 12px;
-  width: 506px;
-  float: right;
-}
-
-.wd-content-author {
-  font-size: 15px;
-  color: white;
-}
-
-.wd-content-handle {
-  font-size: 15px;
-  color: lightgray;
-}
-
-.wd-content-main {
-  font-size: 15px;
-  color: white;
-
-  width: 506px;
-}
-
-.wd-bookmarks-content-img-border {
-
-  border: 1px solid lightgray;
-  border-radius: 20px;
-}
-
-.wd-content-img {
-  float: right;
-  width: 504px;
-  height: 264px;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  margin-bottom: 12px;
-  margin-left: 12px;
-}
-
-.wd-content-from-avatar-img {
-  padding: 12px;
-}
-
-
-.wd-content-title {
-  margin-top: 12px;
-  margin-bottom: 5px;
-  font-size: 15px;
-  color: white;
-}
-
-.wd-content-text {
-  font-size: 15px;
-  color: lightgray;
-  margin: 0px;
-}
-
-.wd-bookmarks-dot-button-gray {
-  float: right;
-  background-color: black;
-  color: rgb(110, 118, 125);
-  border: 0px none;
-  margin-top: 5px;
-  margin-right: 0px;
-  font-size: 15px;
-}
-
-.fa-link {
-  margin-top: 10px;
-  margin-bottom: 0px;
-  font-size: 15px;
-
-  padding: 0px;
+.wd-lgray {
   color: rgb(110, 118, 125);
 }
 
-.wd-content-icons-bar {
-  margin-top: 12px;
-  margin-bottom: 12px;
-
-  font-size: 15px;
+.wd-border-left-thin-lgray {
+   border-left: 1px solid rgb(47, 51, 54);
 }
 
-.wd-content-icon {
-  margin-right: 60px;
-
-  text-decoration: none;
+.wd-border-right-thin-lgray {
+   border-right: 1px solid rgb(47, 51, 54);
 }
 
-.wd-content-icon-color {
-  margin-right: 12px;
-  color: lightgray;
+.wd-border-top-thin-lgray {
+   border-top: 1px solid rgb(47, 51, 54);
 }
 
-.wd-content-number {
-  margin-left: 12px;
-  color: lightgray;
+.wd-grid-row { clear: both; }
+
+.wd-grid-col-quarter-page {
+   width: 25%;
+   float: left;
 }
 
-.wd-content-icon-red {
-  color: red;
-}
-
-a:visited {
-  color: inherit;
+.wd-adjustments {
+    margin-top:-3px;
+    margin-bottom:3px;
 }
