@@ -42,6 +42,16 @@ const NavigationSidebar = () => {
                     </div>
                 </div>
             </Link>
+            <a className="list-group-item">
+                <div className="row">
+                    <div className="col-1">
+                        <i className="fa-solid fa-bell"></i>
+                    </div>
+                    <div className="col-2">
+                        <span className="d-none d-xl-block">Notifications</span>
+                    </div>
+                </div>
+            </a>
             <a className={`list-group-item
                     ${active === 'messages'?'active':''}`}>
                 <div className="row">

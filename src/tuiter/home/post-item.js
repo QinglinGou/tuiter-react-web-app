@@ -24,14 +24,14 @@ const PostItem = (
             "profile_image": "spacex.jpg",
             "time": "Oct 18",
             "post_title": {
-                "content1": "SpaceX’s Rideshare program’s redesigned payload configuration offers more opportunities for smallsat providers to catch a ride to orbit. Learn more here → ",
-                "link": "http://spacex.com/rideshare/",
-                "content2": ""
+                "content1": "T-1 hour until Falcon 9’s launch of @",
+                "link": "InmarsatGlobal",
+                "content2": "’s I-6 F2 mission from SLC-40 in Florida; the 89-minute launch window opens at 10:59 a.m. ET, and weather is 85% favorable"
             },
-            "post_image": "post-image2.jpg",
-            "comments": "1,107",
-            "retweets": "1,526",
-            "Likes": "14K"
+            "post_image": "12333.gif",
+            "comments": "54",
+            "retweets": "430",
+            "Likes": "3,613"
         }
     }
 ) => {
@@ -104,6 +104,7 @@ const PostItem = (
                                 <span>{post2.post_title.content1}</span>
                                 <span
                                     style={{"color": "rgb(29, 161, 242)"}}>{post2.post_title.link}</span>
+                                <span>{post2.post_title.content2}</span>
                             </p>
                             <div className="rounded-4">
                                 <div>
