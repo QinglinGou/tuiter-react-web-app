@@ -38,7 +38,7 @@ const NavigationSidebar = () => {
             <Link to="/" className="list-group-item">
                 <div className="row">
                     <div className="col-1">
-                        <i className="fa-solid fa-asterisk"></i>
+                        <i className="fa-solid fa-flask"></i>
                     </div>
                     <div className="col-2">
                         <span className="d-none d-xl-block">Labs</span>
