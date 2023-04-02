@@ -14,7 +14,7 @@ import profileReducer from "./profile/profile-reducer";
 import EditProfileComponent from "./edit-profile";
 
 const store = configureStore(
-    {reducer: {who: whoReducer, tuits: tuitsReducer, currentProfile: profileReducer}});
+    {reducer: {who: whoReducer, tuitsData: tuitsReducer, currentProfile: profileReducer}});
 
 function Tuiter() {
     return (
