@@ -15,7 +15,7 @@ const ProfileComponent = () => {
                         </div>
                         <div className="col-11">
                             <h5 className="card-title">{profile.firstName} {profile.lastName}</h5>
-                            <h6 className="card-subtitle text-muted">{profile.tweets} Tweets</h6>
+                            <h6 className="card-subtitle text-muted">{profile.tuits} Tuits</h6>
                         </div>
                     </div>
                 </div>

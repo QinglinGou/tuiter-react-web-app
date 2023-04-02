@@ -48,7 +48,7 @@ const EditProfileComponent = () => {
                     </div>
                 </div>
                 <div className="wd-backPic">
-                    <img className="wd-profilePic-image" src="/images/ds.jpg" height={300}
+                    <img className="wd-profilePic-image" src="/images/post-image2.jpg" height={300}
                          alt="Card image"/>
                     <div className="wd-profilePic-content">
                             <span className="wd-profilePic-icon">
@@ -60,7 +60,7 @@ const EditProfileComponent = () => {
                 <div className="card-body">
                     <div className="wd-profilePic wd-rounded">
                         <img className="rounded-circle  wd-profilePic-image"
-                             src="/images/mypic.jpg"
+                             src="/images/react.jpg"
                              width={128} height={128} alt="Profibild"/>
                         <div className="wd-profilePic-content">
                             <span className="wd-profilePic-icon"><i

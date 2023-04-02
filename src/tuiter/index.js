@@ -6,7 +6,7 @@ import Nav from "../nav";
 import {Route, Routes} from "react-router";
 import HomeComponent from "./home";
 import whoReducer from "./reducers/who-reducer";
-import tuitsReducer from "./tuits/tuits-reducer";
+import tuitsReducer from "./reducers/tuits-reducer";
 import {configureStore} from '@reduxjs/toolkit';
 import {Provider} from "react-redux";
 import ProfileComponent from "./profile";

@@ -2,14 +2,14 @@
   "firstName": "Qinglin",
   "lastName": "Gou",
   "handle": "@ChrisGou",
-  "profilePicture": "/images/mypic.jpg",
-  "bannerPicture": "/images/ds.jpg",
-  "bio": "Master of Data Science Student @Northeastern University.",
+  "profilePicture": "/images/react.jpg",
+  "bannerPicture": "/images/post-image2.jpg",
+  "bio": "A graduate student @ Northeastern University pursuing MS in Data Science.",
   "website": "youtube.com/webdevtv",
   "location": "Boston, MA",
-  "dateOfBirth": "12/11/1992",
-  "dateJoined": "03/2023",
+  "dateOfBirth": "11/12/1992",
+  "dateJoined": "04/2023",
   "followingCount": 340,
   "followersCount": 223,
-  "tweets": 61140
+  "tuits": 1247
 }
