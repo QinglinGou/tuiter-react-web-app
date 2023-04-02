@@ -57,13 +57,17 @@ const tuitsSlice = createSlice({
             },
         [updateTuitThunk.fulfilled]:
             (state, { payload }) => {
-                state.loading = false
-                const tuitNdx = state.tuits
-                    .findIndex((t) => t._id === payload._id)
-                state.tuits[tuitNdx] = {
-                    ...state.tuits[tuitNdx],
-                    ...payload
-                }
+                state.loading = false;
+                state.tuits = state.tuits.map(tuit => {
+                  if (tuit._id === payload._id) {
+                    return {
+                      ...tuit,
+                      ...payload
+                    }
+                  }
+                  return tuit;
+                });
+
             }
     },
     reducers: { }
